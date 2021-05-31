@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(to left top, #428C7E, #B5C7AD);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 200;
+}
+.main{
+    min-height: 80vh;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    width: 700px;
+    
+}
+.main h1{
+    background: #428C7E;
+    text-align: center;
+    font-size: 700;
+    padding: 15px;
+    width: 100%;
+}
+.main h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.main h4{
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+    justify-content: center;
+
+}
+
+.info{
+display: flex;
+flex-direction: column;
+padding: 10px;
+}
+.info input{
+ padding: 6px;
+    margin: 7px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid ;
+    border-radius: 2px;
+}
+.info input:focus{
+    border-bottom: 2px solid #78C2B3;
+     
+}
+.submit{
+    width: 100%;
+    justify-content: center;
+    outline: none;
+    background:#BBBBBB;
+}
+.submit:hover{
+    background:#2E7177 ;
+    color: #fff;
+}
+

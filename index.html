@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+  <h1>Survey Form</h1> 
+  <h2>Welcome to our survey page.</h2>
+    <h4>Kindly fill out your correct Informations below.</h4>
+  <form action="index.html">
+<div class="info">
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <input type="text" placeholder="Phone Number">
+    <input type="text" placeholder="Email Address">
+    <input type="text" placeholder="Age">
+    <div class="choose">
+    <p>Gender</p>
+    <input type="radio" name="options" value="Male" />
+    <label for="male">Male</label>                                                                           
+          <input type="radio" name="options" value="Female">
+          <label for="female">Female</label>
+</div>
+<div class="opt">
+    <p>What is your current situation?</p>
+    <select id="dropdown"  name="situation">
+    <option value="student">Student.</option>
+    <option value="student">Graduate.</option>
+    <option value="student">Highschooler.</option>
+    <option value="student">Full-Time job.</option>
+    <option value="student">Part-Time job.</option>
+    </select>
+</div>
+    <input type="text" placeholder="Any Interests?">
+    <p>Could be business or career</p>
+<h3>Did you like this survey?</h3>
+    <label> <input type="checkbox">Yes</label>
+    <label > <input type="checkbox">No</label>
+
+    <h4>Kindly cross check your informations before submitting</h4>
+    <input class="submit" type="submit" value="SUBMIT">
+</div>
+  </form> 
+</div>
+</body>
+</html>
